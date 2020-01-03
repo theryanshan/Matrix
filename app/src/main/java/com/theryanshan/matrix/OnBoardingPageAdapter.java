@@ -15,6 +15,8 @@ public class OnBoardingPageAdapter extends androidx.fragment.app.FragmentPagerAd
         switch (position) {
             case 0:
                 return LoginFragment.newInstance();
+            case 1:
+                return RegisterFragment.newInstance();
             default:
                 return null;
         }
@@ -25,6 +27,8 @@ public class OnBoardingPageAdapter extends androidx.fragment.app.FragmentPagerAd
         switch(position) {
             case 0:
                 return "Login";
+            case 1:
+                return "Register";
         }
         return null;
     }
