@@ -20,9 +20,9 @@ public abstract class OnBoardingBaseFragment extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         View view = inflater.inflate(getLayout(), container, false);
-        //usernameEditText = (EditText) view.findViewById(R.id.editTextLogin);
-        //passwordEditText = (EditText) view.findViewById(R.id.editTextPassword);
-        //submitButton = (Button) view.findViewById(R.id.submit);
+        usernameEditText = (EditText) view.findViewById(R.id.editTextLogin);
+        passwordEditText = (EditText) view.findViewById(R.id.editTextPassword);
+        submitButton = (Button) view.findViewById(R.id.submit);
         return view;
 
     }
